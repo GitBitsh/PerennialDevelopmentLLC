@@ -1,3 +1,10 @@
 TESTING LOCAL AND REMOTE CONFIGURATIONS FOR GIT COMMIT AND PUSH/PULL/FETCH.
 
 LITS GIT ET!
+
+
+
+This text was modifed on code.dev on ipad and if it shows up on github then I'm finished setting it up.
+
+
+
