@@ -1,0 +1,29 @@
+TO DO ITEMS -- PERENNIAL DEVELOPMENT
+
+
+- import existing documents, files, etc from previous google workspace/G-suite
+- get domain name registered with registrar and get custom email domain @perennialdevelopment
+- 
+
+
+- Get single page up with CSS grid or flex box and an associated JS file
+- Have social media links/buttons
+- basic relevant SEO in head and meta tags
+- Add meta data to image files with exif software
+- Add establishment to Google Maps and Yelp(?)
+
+
+
+As it becomes available:
+
+- add text; descriptions; etc...
+- Add images, logo, photos, required social media buttons, etc...
+
+
+
+Mentioned during initial meeting:
+
+- option to add affiliate links in future
+- would like to scale up as needed to grow business
+- Help build associated social media pages
+- Possible paid ads and 'AdWords'
