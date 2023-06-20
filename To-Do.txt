@@ -3,7 +3,6 @@ TO DO ITEMS -- PERENNIAL DEVELOPMENT
 
 - import existing documents, files, etc from previous google workspace/G-suite
 - get domain name registered with registrar and get custom email domain @perennialdevelopment
-- 
 
 
 - Get single page up with CSS grid or flex box and an associated JS file
