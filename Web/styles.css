@@ -40,9 +40,13 @@
 
 
 .image {
-    position: absolute;
-    border: 1px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 0px;
 }
+
+
 
 
 .navbar {
@@ -71,10 +75,10 @@
 /* Social links */
 .social-links {
   text-align: center;
-  padding: 10px; /* Adjust as needed */
+  padding: 16px; /* Adjust as needed */
 }
 .social-links a {
-  margin: 0 10px; /* Adjust as needed */
+  margin: 0 20px; /* Adjust as needed */
   text-decoration: none;
   color: #fff; /* Adjust as needed */
 }
