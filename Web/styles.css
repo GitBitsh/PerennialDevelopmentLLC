@@ -38,14 +38,36 @@
 }
 
 
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  .blog-column {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
 
-
+/* Style the image inside the centered container, if needed */
+.centered-container img{
+  position: relative;
+  text-align: center;
+  color: white;
+}
 
 .image {
   display: block;
   max-width: 100%; /* Ensures the image doesn't go beyond the width of its container */
-  height:fit-content; /* Keeps the aspect ratio of the image while resizing */
-  margin: 0 auto; /* Centers the image horizontally */
+  height: 100%; /* Keeps the aspect ratio of the image while resizing */
+  margin: 0 auto;
+  /* always show full image */
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* hide text when image is loading */
+  color: transparent;
+  -o-object-position: center;
+  object-position: center;
+  /*
+
 }
 
 
