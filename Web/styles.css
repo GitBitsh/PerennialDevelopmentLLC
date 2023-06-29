@@ -39,13 +39,14 @@
 
 
 
+
+
 .image {
   display: block;
   max-width: 100%; /* Ensures the image doesn't go beyond the width of its container */
-  height: auto; /* Keeps the aspect ratio of the image while resizing */
+  height:fit-content; /* Keeps the aspect ratio of the image while resizing */
   margin: 0 auto; /* Centers the image horizontally */
 }
-
 
 
 
