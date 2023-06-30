@@ -1,5 +1,11 @@
 /* CSS file */
 
+.body {
+  scroll-behavior: smooth;
+
+}
+
+
 /* Full-width header */
 .header {
   width: 100%;
@@ -32,7 +38,6 @@
   /* width: 25%; Adjust as needed */
   position: relative;
   left: 0;
-  top: 120px; /* Adj ust as needed */
   float:left; /* Positions the element on the right */
   margin-left: auto; /* Adds some space on the left to prevent overlap with other elements */
   margin-right: auto;
@@ -43,12 +48,11 @@
 /* Footer */
 .footer {
   width: 100%;
-  height: 100px; /* Adjust as needed */
+  height:auto; /* Adjust as needed */
   position: relative;
   bottom: 0;
-  background-color: #333; /* Adjust as needed */
+  background-color: #d7dbdc; /* Adjust as needed */
   color: #fff;
-  background-color: ; /* Adjust as needed */
   text-align: center;
   line-height: 100px; /* Adjust as needed */
 }
@@ -85,9 +89,17 @@
   -o-object-position: center;
   object-position: center;
 }
-  /*
 
+
+
+.about {
+width: auto;
+height: auto;
+position: relative;
+left: 20px;
+background-color: #fbfffa;
 }
+
 
 
 .navbar {
@@ -114,14 +126,60 @@
 
 
 
-.social-links a {
-  margin: 0 12px; /* Adjust as needed */
-  text-decoration: none;
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Adjust as needed */
+  top: 0;
+  background-color: #31ce65; /* Adjust as needed */
   color: #fff; /* Adjust as needed */
   text-align: center;
+  line-height: 100px; /* Adjust as needed */
+}
+
+.social-links a {
+  margin: 12px; /* Adjust as needed */
+  text-decoration: none;
+  color: #4b3e83; /* Adjust as needed */
+  text-align: center;
   padding: 10px; /* Adjust as needed */
+}
+
+.social-links a:hover {
+  background-color: #555571; /* Adjust as needed */
+  color: #fff; /* Adjust as needed */
+} 
+
+.affiliate-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.affiliate-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20%; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  background-color: #f0f0f0; /* Adjust as needed */
+  text-decoration: none;
+  color: #333; /* Adjust as needed */
+  border: 1px solid #ccc; /* Adjust as needed */
+  border-radius: 5px; /* Adjust as needed */
+  padding: 1%; /* Adjust as needed */
+  text-align: center;
 }
 
 
 
 
+.blog-column {
+  width: 25%; /* Adjust as needed */
+  position: fixed;
+  right: 0;
+  top: 120px; /* Adj ust as needed */
+  float: right; /* Positions the element on the right */
+  margin-left: 20px; /* Adds some space on the left to prevent overlap with other elements */
+
+}
