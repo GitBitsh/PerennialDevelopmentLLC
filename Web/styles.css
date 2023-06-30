@@ -6,6 +6,11 @@
 }
 
 
+.div {
+  margin: 2%;
+}
+
+
 /* Full-width header */
 .header {
   width: 100%;
@@ -23,11 +28,21 @@
   margin: 120px 25% 120px 0; /* Adjust as needed */
 }
 
+
+
 /* Blog column */
 .blog-column {
-  width: 25%; /* Adjust as needed */
-  position: fixed;
+  width: 25%;
+    position: relative;
+    left: 0;
+    float:left; 
+    margin-left: auto; /* Adds some space on the left to prevent overlap with other elements */
+    margin-right: auto;
+    align-items: center;
+  
+  };
   right: 0;
+  border: 4px solid #00ff48; /* Adjust as needed */
   top: 120px; /* Adj ust as needed */
   float: right; /* Positions the element on the right */
   margin-left: 20px; /* Adds some space on the left to prevent overlap with other elements */
@@ -38,12 +53,24 @@
   /* width: 25%; Adjust as needed */
   position: relative;
   left: 0;
-  float:left; /* Positions the element on the right */
+;
   margin-left: auto; /* Adds some space on the left to prevent overlap with other elements */
   margin-right: auto;
   align-items: center;
 
 }
+
+.phone_email {
+  /* width: 25%; Adjust as needed */
+  position: relative;
+  left: 0;
+  float:right; /* Positions the element on the right */
+  margin-left: auto; /* Adds some space on the left to prevent overlap with other elements */
+  margin-right: auto;
+  align-items: center;
+
+}
+
 
 /* Footer */
 .footer {
@@ -91,15 +118,14 @@
 }
 
 
-
 .about {
 width: auto;
 height: auto;
 position: relative;
 left: 20px;
+margin-right: 20px;
 background-color: #fbfffa;
 }
-
 
 
 .navbar {
@@ -132,7 +158,7 @@ background-color: #fbfffa;
   align-items: center;
   height: 100px; /* Adjust as needed */
   top: 0;
-  background-color: #31ce65; /* Adjust as needed */
+  background-color: #11e7ff; /* Adjust as needed */
   color: #fff; /* Adjust as needed */
   text-align: center;
   line-height: 100px; /* Adjust as needed */
@@ -147,8 +173,11 @@ background-color: #fbfffa;
 }
 
 .social-links a:hover {
-  background-color: #555571; /* Adjust as needed */
+  background-color: #393948; /* Adjust as needed */
   color: #fff; /* Adjust as needed */
+  border-radius: 5px; /* Adjust as needed */
+  display: inline-block;
+
 } 
 
 .affiliate-links {
@@ -176,7 +205,8 @@ background-color: #fbfffa;
 
 .blog-column {
   width: 25%; /* Adjust as needed */
-  position: fixed;
+border: 5px solid #31ce65;
+  position: relative;
   right: 0;
   top: 120px; /* Adj ust as needed */
   float: right; /* Positions the element on the right */
