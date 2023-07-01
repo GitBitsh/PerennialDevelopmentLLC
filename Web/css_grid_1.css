@@ -2,9 +2,9 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 1;
   grid-auto-rows: minmax(100px, auto);
-  grid-template-areas: "header header header" "main main sidebar" "footer footer footer";
+  grid-template-areas: "header header header""main main sidebar""footer footer footer";
 }
 
 /* Style the header */
@@ -42,18 +42,20 @@
 }
 
 
-/* Create two unequal columns that floats next to each other */
+
 /* Left column */
 .leftcolumn {
   grid-area: sidebar;
   float: left;
   width: 75%;
+  background-color: #aaa;
+  padding-left: 20px;
 }
 
 /* Right column */
 .rightcolumn {
   grid-area: main;
-  float: left;
+  float: right;
   width: 25%;
   background-color: #f1f1f1;
   padding-left: 20px;
@@ -87,7 +89,7 @@
 }
 
 /* Style the image inside the centered container, if needed */
-.centered-container img{
+.centered-container img {
   position: relative;
   text-align: center;
   color: white;
@@ -95,7 +97,8 @@
 
 .header_image {
   display: block;
-  max-width: 100%; /* Ensures the image doesn't go beyond the width of its container */
+  max-width: 100%;
+  /* Ensures the image doesn't go beyond the width of its container */
   /*height: auto; /* Keeps the aspect ratio of the image while resizing */
   max-height: 30vh;
   max-height: 30 dvh;
@@ -112,12 +115,12 @@
 
 
 .about {
-width: auto;
-height: auto;
-position: relative;
-left: 20px;
-margin-right: 20px;
-background-color: #fbfffa;
+  width: auto;
+  height: auto;
+  position: relative;
+  left: 20px;
+  margin-right: 20px;
+  background-color: #fbfffa;
 }
 
 
@@ -146,47 +149,3 @@ background-color: #fbfffa;
   background-color: #ddd;
   color: black;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
