@@ -1,5 +1,5 @@
 /*create a css grid template*/
-.grid {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
@@ -123,6 +123,7 @@ background-color: #fbfffa;
 
 /*create four affiliate link buttons on the bottom of the page, evenly spaced*/
 /* Style the footer */
+
 .footer {
   grid-area: footer;
   background-color: #f1f1f1;
@@ -132,13 +133,22 @@ background-color: #fbfffa;
 
 /* Style the footer links */
 .footer a {
-  color: #000000;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Change color on hover */
 .footer a:hover {
-  color: #555;
+  background-color: #ddd;
+  color: black;
 }
+
+
+
 
 
 
