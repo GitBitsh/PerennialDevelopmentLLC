@@ -3,7 +3,7 @@
 
 /* Set a background color for entire document with parent element */
 html {
-  background-color: #767e7e;
+  background-color: #6d7272;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.5;
@@ -17,7 +17,7 @@ h3 {
   font-size: 1.4em;
   font-weight: bold;
   text-align: center;
-  color: #ede6f7;
+  color: #b5b2ba;
   background-color: #393948;
   margin: 1%;
 }
