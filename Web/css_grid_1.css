@@ -1,10 +1,27 @@
-html {
-  font-family: verdana;
+@media screen and (min-width: 1000px) {
+  html {}
+}
+
+
+* {
+  overflow-wrap: normal;
+  margin: 1vh;
+  border-radius: 7px;
+}
+
+p {
+  display: grid;
+  grid-auto-rows: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 /*create a css grid template*/
 
-@media screen and (min-width: 600px) {
+
+
+
+@media screen and (min-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -12,16 +29,17 @@ html {
     grid-auto-rows: minmax(100px, auto);
     grid-template-areas: "header header header""main main sidebar";
     background-color: #ffffff;
-
   }
 }
+
+
 
 .div {
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin: auto;
   padding: 1%;
+  margin: 1%;
 }
 
 /* Style the header */
@@ -80,46 +98,48 @@ html {
 }
 
 
+.grid_style {
+  padding: 26px;
+}
+
 /* Left column */
 .about {
   grid-area: main;
-  float: left;
+  grid-template-rows: 4;
   background-color: #ffffff;
-  padding: 26px;
-  font-size: 24px;
+  font-size: 20px;
+  max-width: 80%;
+
 }
 
 
 /* Right column */
 .blog {
   grid-area: sidebar;
-  max-width: 100%;
-  min-width: 80%;
+  max-width: 70%;
   background-color: #ffffff;
-  padding: 10px;
   align-items: center;
-  float: center;
-  font-size: 30px;
+  font-size: 20px;
+  border: 1px solid #333;
 
 }
+
 
 .blog-box {
   display: grid;
   grid-template-columns: 1;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  padding-top: 60%;
-  padding-bottom: 60%;
   color: black;
-  background-color: #f1f1f1;
-  border: solid 1px rgb(35, 148, 59);
-  padding: 6%;
+  grid-auto-rows: minmax(100px, auto);
+  background-color: #ffffff;
   text-align: center;
-  min-height: 1fr;
-
-  font-size: 30px;
-  font-weight: bold;
+  vertical-align: auto;
+  min-height: fit-content;
+  font-size: 20px;
   font-family: Helvetica;
+  padding: 10%;
+  margin: 10%;
+  border: solid 1px black;
+  border-radius: 9px;
 }
 
 
@@ -132,16 +152,19 @@ html {
 }
 */
 
+/*AFFILIATE SECTION*/
+/*AFFILIATE SECTION*/
+/*AFFILIATE SECTION*/
+
 
 .affiliates {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 5%;
-  position: relative;
-  padding: 3%;
+  padding: 5%;
   text-align: center;
   align-items: center;
-
+  margin: 5%;
 
 }
 
@@ -160,19 +183,28 @@ a:hover {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .affiliate-button {
   color: rgb(181, 181, 188);
   background-color: #7e847f;
   padding: 10%;
   text-align: center;
   align-items: center;
-  border: solid 1px black;
-  margin: 1% auto;
   display: block;
   font-size: 20px;
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.box {
+  width: 50%;
+  height: 50%;
+  padding: 20px auto;
+  margin: 20px auto;
+  border: solid 1px black;
+  border-radius: 7px;
+}
+
 
 .newsletter {
   position: relative;
@@ -184,14 +216,13 @@ a:hover {
 
 label {
   font-size: 20px;
-  font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 
 input {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: light;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -208,14 +239,17 @@ input:hover {
 }
 
 button {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Helvetica;
+  padding: 6px;
 }
 
 
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+/*
 @media (max-width: 600px) {
   .grid-template-columns {
     width: 100%;
@@ -223,6 +257,7 @@ button {
     position: relative;
   }
 }
+*/
 
 /* Style the image inside the centered container, if needed */
 .centered-container img {
@@ -255,7 +290,6 @@ button {
   height: auto;
   position: relative;
   left: 20px;
-  margin-right: 20px;
   background-color: #fbfffa;
 }
 
@@ -275,7 +309,6 @@ button {
   width: 98%;
   margin: 2%;
 }
-
 
 
 .footer {
