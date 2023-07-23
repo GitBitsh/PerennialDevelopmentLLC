@@ -4,13 +4,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2%;
     grid-auto-rows: minmax(100px, auto);
-    grid-template-areas: "header header header""main main sidebar";
-
+    grid-template-areas: "header header header" "main main sidebar";
   }
 }
 
 html {
-  background: linear-gradient(to bottom, #f3f4f0eb 0%, #f2f4f0 90%, #9296944e 100%);
+  background: linear-gradient(
+    to bottom,
+    #f3f4f0eb 0%,
+    #f2f4f0 90%,
+    #9296944e 100%
+  );
   min-height: 100%;
   min-width: 100%;
   margin: 0;
@@ -26,7 +30,6 @@ margin-right: 3vh;
   overflow-wrap: normal;
   margin: 1vh;
   border-radius: 7px;
-
 }
 
 p {
@@ -38,16 +41,12 @@ p {
 
 /*create a css grid template*/
 
-
-
-
 .div {
   align-items: center;
   align-content: center;
   justify-content: center;
   padding: 1%;
   margin: 1%;
-
 }
 
 /* Style the header */
@@ -56,10 +55,14 @@ p {
   padding: 10px;
   text-align: center;
   font-size: 35px;
-  background: linear-gradient(to right, #f2f4f0 0%, #fffffff4 45%, #fffffff4 55%, #f2f4f0 100%);
+  background: linear-gradient(
+    to right,
+    #f2f4f0 0%,
+    #fffffff4 45%,
+    #fffffff4 55%,
+    #f2f4f0 100%
+  );
 }
-
-
 
 .header_image {
   grid-area: header;
@@ -70,7 +73,6 @@ p {
   min-width: 30%;
   min-height: 30%;
   position: absolute;
-
 }
 
 /* Style the top navigation bar */
@@ -89,12 +91,10 @@ p {
   text-decoration: none;
 }
 
-
 /* Change color on hover */
 .topnav a:hover {
   color: black;
 }
-
 
 .h3 {
   color: #b02b2b;
@@ -102,13 +102,10 @@ p {
   padding: 14px;
   text-decoration: none;
   font-size: 52px;
-
 }
-
 
 .grid_style {
   padding: 26px;
-
 }
 
 /* Left column */
@@ -117,9 +114,7 @@ p {
   grid-template-rows: 4;
   font-size: 20px;
   max-width: 80%;
-
 }
-
 
 /* Right column */
 .blog {
@@ -127,9 +122,7 @@ p {
   max-width: 70%;
   align-items: center;
   font-size: 20px;
-
 }
-
 
 .blog-box {
   display: grid;
@@ -145,15 +138,19 @@ p {
   margin: 10%;
   border: solid 1px rgb(208, 210, 212);
   border-radius: 9px;
-  background: linear-gradient(to bottom, rgb(26, 26, 26) 0%, #ffffff 10%, #a2aebd 60%, #284ea8 80%, rgb(26, 25, 25) 100%);
-
-
+  background: linear-gradient(
+    to bottom,
+    rgb(26, 26, 26) 0%,
+    #ffffff 10%,
+    #a2aebd 60%,
+    #284ea8 80%,
+    rgb(26, 25, 25) 100%
+  );
 }
 
 .blog-post-text {
   font-size: 18px;
 }
-
 
 /* Fake image */
 /*
@@ -168,17 +165,15 @@ p {
 /*AFFILIATE SECTION*/
 /*AFFILIATE SECTION*/
 
-
 .affiliates {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 5%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
   align-items: center;
-  margin: 5%;
-
+  margin: 4%;
 }
 
 a {
@@ -192,7 +187,6 @@ a:hover {
   font-size: 22px;
   background: #000000f9;
 }
-
 
 .affiliate-button {
   color: rgb(182, 201, 189);
@@ -215,7 +209,6 @@ a:hover {
   border-radius: 3%;
 }
 
-
 .newsletter {
   position: relative;
   padding: 20px;
@@ -223,10 +216,14 @@ a:hover {
   font-size: 22px;
 }
 
-
 form {
   border-radius: 1vh;
-  background: linear-gradient(to right, #f7f7f38b 0%, #78b27812 50%, #f7f7f388 100%);
+  background: linear-gradient(
+    to right,
+    #f7f7f38b 0%,
+    #78b27812 50%,
+    #f7f7f388 100%
+  );
 }
 
 label {
@@ -234,7 +231,6 @@ label {
   color: rgb(15, 20, 38);
   font-family: Helvetica;
 }
-
 
 input {
   font-size: 20px;
@@ -246,7 +242,6 @@ input:focus-within {
   background-color: rgb(218, 230, 221);
   font-size: 28px;
   color: black;
-
 }
 
 input:hover {
@@ -260,8 +255,6 @@ button {
   font-family: Helvetica;
   padding: 8px;
 }
-
-
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 
@@ -300,7 +293,6 @@ button {
   object-position: center;
 }
 
-
 .about {
   width: auto;
   height: auto;
@@ -308,25 +300,22 @@ button {
   left: 22px;
 }
 
-
 /*create four affiliate link buttons on the bottom of the page, evenly spaced*/
 /* Style the footer */
 
-
 .line-break-top {
-  border: .1px solid#333;
+  border: 0.1px solid#333;
   width: 97%;
   margin: 1%;
 }
 
 .line-break {
-  border: .1px solid#333;
+  border: 0.1px solid#333;
   width: 99%;
   align-items: center;
   max-width: 99%;
   min-width: none;
 }
-
 
 .footer {
   display: grid;
@@ -336,18 +325,14 @@ button {
   font-size: 20px;
   font-weight: 300;
   font-family: Helvetica, sans-serif;
-  line-height: .6;
+  line-height: 0.6;
   margin: 0;
-
-
 }
 
 .wtf {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
-
 
 .footer-left {
   grid-column: 1;
@@ -360,7 +345,6 @@ button {
   font-family: Helvetica, sans-serif;
   line-height: 1;
   min-width: 10%;
-
 }
 
 .footer-right {
@@ -374,12 +358,7 @@ button {
   font-family: Helvetica, sans-serif;
   line-height: 1;
   min-width: 10%;
-
 }
-
-
-
-
 
 /* Style the footer links */
 .footer a {
@@ -395,13 +374,6 @@ button {
   color: black;
 }
 
-
-
-
-
-
-
-
 /* GRID TEST AREA */
 /* GRID TEST AREA */
 /* GRID TEST AREA */
@@ -409,7 +381,6 @@ button {
 /* GRID TEST AREA */
 /* GRID TEST AREA */
 /* GRID TEST AREA */
-
 
 /*
 .test-area-container {
