@@ -9,12 +9,7 @@
 }
 
 html {
-  background: linear-gradient(
-    to bottom,
-    #f3f4f0eb 0%,
-    #f2f4f0 90%,
-    #9296944e 100%
-  );
+  background: linear-gradient(to bottom, #ffffff 0%, #ededed 90%, #dddddd 100%);
   min-height: 100%;
   min-width: 100%;
   margin: 0;
@@ -57,10 +52,10 @@ p {
   font-size: 35px;
   background: linear-gradient(
     to right,
-    #f2f4f0 0%,
+    #fcfcfc 0%,
     #fffffff4 45%,
     #fffffff4 55%,
-    #f2f4f0 100%
+    #fcfcfc 100%
   );
 }
 
@@ -182,10 +177,10 @@ a {
   font-size: 20px;
 }
 
-a:hover {
+#affs:hover {
   color: rgb(203, 221, 218);
   font-size: 22px;
-  background: #000000f9;
+  background: #d6d6d6f9;
 }
 
 .affiliate-button {
@@ -220,8 +215,8 @@ form {
   border-radius: 1vh;
   background: linear-gradient(
     to right,
-    #f7f7f38b 0%,
-    #78b27812 50%,
+    #f7f7f3 0%,
+    #aeb2780b 50%,
     #f7f7f388 100%
   );
 }
@@ -240,13 +235,13 @@ input {
 
 input:focus-within {
   background-color: rgb(218, 230, 221);
-  font-size: 28px;
+  font-size: 22px;
   color: black;
 }
 
 input:hover {
   background-color: rgb(218, 218, 227);
-  font-size: 30px;
+  font-size: 22px;
 }
 
 button {
@@ -327,6 +322,10 @@ button {
   font-family: Helvetica, sans-serif;
   line-height: 0.6;
   margin: 0;
+}
+
+#footer-number:hover {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .wtf {
